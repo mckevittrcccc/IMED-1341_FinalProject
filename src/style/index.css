@@ -142,7 +142,7 @@ body {
     color: #ffffff;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
     .hero-section {
         padding: 4.5rem 0;
     }
@@ -152,7 +152,11 @@ body {
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
+    html {
+        font-size: 90%;
+    }
+
     .gallery-img {
         height: 220px;
     }
@@ -162,7 +166,7 @@ body {
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
     .gallery-img {
         height: 200px;
     }
